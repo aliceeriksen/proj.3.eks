@@ -104,19 +104,15 @@ div a {
 }
 .footer__content {
     display: flex; 
-    justify-content: flex-start; 
-    align-items: flex-start; 
-    text-align: left; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
   }
-  /* Hvad overstående gør i min footer
-  - Aktivere min flexbox 
-  - placer min tekst til venstre 
-  - justere teksten øverst 
-  - venstre tekst */
 
   .footer__contact {
     max-width: 300px; 
   }
+
   /* Begrænser bredden på mine informatiner i footeren */
   
   .footer__title {
@@ -162,6 +158,8 @@ div a {
     color: #321E1E; 
   }
 
+
+
 /* PROJEKTER */
 body {
     font-family: Arial, sans-serif;
@@ -171,8 +169,8 @@ body {
   
   .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 16px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 19px;
     padding: 16px;
   }
   
@@ -198,9 +196,6 @@ body {
 
 
 
-
-
-
 /* HELE MIN MEDIA QUERY*/
 @media only screen and (max-width: 430px) {
     .header {
@@ -221,9 +216,17 @@ body {
     background-color: #321E1E;
     color: #FBF0DC;
     text-align: center;
-    padding: 70px 80px;
+    padding: 7px 8px;
 }
+.footer__title {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
 }
+.footer__info {
+    margin: 5px 0;
+    font-size: 1rem;
+  }
 
 /* Medie query for stor skærm*/
 
