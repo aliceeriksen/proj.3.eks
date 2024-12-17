@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* Hele min body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #321E1E;
+    background-color: #F8F3EC;
+}
+
+
+
+/* Hele min header */
+.header__logo-link {
+    color: inherit; /* Betyder den beholder eksisterende farve */
+    text-decoration: none; /* Fjerner understregningen */
+    font-style: italic; /* Beholder min font-style fra logoet */
+    font-size: 1.2rem; /* Betyder samme størrelse som før */
+}
+.header {
+    background-color: #321E1E;
+    color: #FBF0DC;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo {
+    font-style: italic;
+    font-size: 0.8rem;
+}
+.header__nav {
+    display: flex;
+    gap: 20px;
+}
+.header__nav-link {
+    color: #FBF0DC;
+    text-decoration: none;
+    font-size: 0.5rem;
+}
+.header__nav-link:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Hele min main */
+.main {
+    padding: 40px 20px;
+    background-color: #E4D0C4;
+}
+.main__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.main__title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #321E1E;
+}
+.main__image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.main__text {
+    font-size: 1.1rem;
+    color: #321E1E;
+}
+
+
+
+/* Tekst og andet indhold */
+div a {
+    color: #321E1E;
+    font-size: medium;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.om__mig {
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+/* Hele min footer */
+.footer {
+    background-color: #321E1E;
+    color: #FBF0DC;
+    text-align: center;
+    padding: 10px 20px;
+}
+.footer__content {
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    text-align: left; 
+  }
+  /* Hvad overstående gør i min footer
+  - Aktivere min flexbox 
+  - placer min tekst til venstre 
+  - justere teksten øverst 
+  - venstre tekst */
+
+  .footer__contact {
+    max-width: 300px; 
+  }
+  /* Begrænser bredden på mine informatiner i footeren */
+  
+  .footer__title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .footer__info {
+    margin: 5px 0;
+    font-size: 1.0rem;
+  }
+
+
+
+/* OM MIG container: kompetencer */
+.boxes {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 20px;
+    justify-content: center; 
+  }
+  
+  /* Enkelt boks */
+  .boxes__box {
+    width: 150px; 
+    padding: 10px;
+    border: 2px solid #321E1E; 
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  .boxes__box:hover {
+    background-color: #D5B895;
+  }
+  
+  /* Teksten inde i boksen */
+  .boxes__text {
+    margin: 0; 
+    font-size: 1rem; 
+    font-weight: bold; 
+    color: #321E1E; 
+  }
+
+
+/* HELE MIN MEDIA QUERY*/
+@media only screen and (max-width: 430px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+    .header__nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .header__nav-link {
+        font-size: 0.85rem;
+    }
+    
+
+/* Min footer */
+.footer {
+    background-color: #321E1E;
+    color: #FBF0DC;
+    text-align: center;
+    padding: 70px 80px;
+}
+}
+
+/* Medie query for stor skærm*/
+
+
