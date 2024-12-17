@@ -42,7 +42,7 @@ body {
 .header__nav-link {
     color: #FBF0DC;
     text-decoration: none;
-    font-size: 0.5rem;
+    font-size: 0.rem;
 }
 .header__nav-link:hover {
     text-decoration: underline;
@@ -161,6 +161,44 @@ div a {
     font-weight: bold; 
     color: #321E1E; 
   }
+
+/* PROJEKTER */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 16px;
+    padding: 16px;
+  }
+  
+  .gallery__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .gallery__media {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .gallery__caption {
+    margin-top: 8px;
+    font-size: 1rem;
+    color: #321E1E;
+  }
+
+
+
+
 
 
 /* HELE MIN MEDIA QUERY*/
