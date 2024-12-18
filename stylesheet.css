@@ -196,6 +196,73 @@ body {
 
 
 
+  /* Kontakt infomationer */
+.Kontakt_info {
+  background-color: #A67A5B;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  border: 2px solid #FBF0DC;
+}
+
+.Kontakt_info a {
+  color: #321E1E;
+  text-decoration: none;
+}
+
+.Kontakt_info a:hover {
+  text-decoration: underline;
+}
+
+/* Kontakt form */
+.Kontakt_form {
+  background-color: #E4D0C4;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  border: 2px solid #321E1E;
+  /*border er linjen rundt om kontakt mig boksene*/
+}
+
+.Kontakt_form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.Kontakt_form input, .kontakt-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 2px solid #321E1E;
+  border-radius: 5px;
+}
+
+.Kontakt_form textarea {
+  resize: vertical;
+  height: 110px; 
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding: 20px;
+  width: 100%;
+  border: 2px solid #321E1E;
+}
+
+.Kontakt_form button {
+  background-color: #321E1E;
+  color: #FBF0DC;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Kontakt_form button:hover {
+  background-color: #A67A5B;
+}
+
+
+
 /* HELE MIN MEDIA QUERY*/
 @media only screen and (max-width: 430px) {
     .header {
